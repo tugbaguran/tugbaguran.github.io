@@ -1,7 +1,790 @@
-﻿
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    Layout = null;
 }
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TUĞBA GÜRAN</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    </noscript>
 
-<h2>Index</h2>
+    <link href="/TEMA/css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="/TEMA/css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="/TEMA/css/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="/TEMA/css/main.css?ver=1.2.1" rel="stylesheet">
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+</head>
+<body class="bg-light" id="top">
+    <header class="d-print-none">
+        <div class="container text-center text-lg-left">
+            <div class="pt-4 clearfix">
+                <h1 class="site-title mb-0">Tuğba GÜRAN</h1>
+                <div class="site-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" title="About"><span class="menu-title">Hakkımda</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Yetenekler</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Deneyim</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education" title="Education"><span class="menu-title">Eğitim</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portföy</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#references" title="References"><span class="menu-title">Sertifikalar</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#references" title="References"><span class="menu-title">Galeri</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact" title="Contact"><span class="menu-title">İletişim</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="page-content">
+        <div class="container">
+            <div class="resume-container">
+                <div class="shadow-1-strong bg-white my-5" id="intro">
+                    <div class="bg-info text-white">
+                        <div class="cover bg-image">
+                            <img src="~/TEMA/1665597582797.jpg" style="width:100%" />
 
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);backdrop-filter: blur(0.1px);">
+                                <div class="text-center p-5">
+
+                                    <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="~/TEMA/TG.jpg" width="160" height="160" /></div>
+                                    <div class="header-bio mt-3">
+                                        <div data-aos="zoom-in" data-aos-delay="0">
+                                            <h2 class="h1">TUĞBA GÜRAN</h2>
+                                            <p>Yazılım Takım Lideri & Proje Yöneticisi</p>
+                                            <p>İlgi Alanım Olan İş Kolları: Proje Yöneticisi, İş Analisti, Yazılım Mühendisi, ERP Uzmanı </p>
+                                        </div>
+                                        <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                                            <nav role="navigation">
+                                                <ul class="nav justify-content-center">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.linkedin.com/in/tu%C4%9Fba-g%C3%BCran-52b017171/" title="Twitter"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://www.udemy.com/user/tugba-guran-4/" title="Facebook"><i class="fab fa-uikit"></i><span class="menu-title sr-only">Udemy</span></a>
+                                                    </li>
+
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="https://github.com/tugbaguran" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                        <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="~/TUĞBA GÜRAN.pdf" data-aos="fade-right" data-aos-delay="700">Özgeçmiş</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">İletişim</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+                    <div class="about-section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="h2 fw-light mb-4">Hakkımda</h2>
+                                <p>
+                                    <b>EĞİTİM </b>
+                                    <br />
+
+                                    Bilgisayar Mühendisliğ bölümünden 3 yılda ve bölüm ikincisi olarak mezun oldum. İkinci üniversite mezunu olarak Sosyal Medya Yönetimi eğitimi aldım. Çeşitli üniversitelerde yaz okulları yaptım ve yazılım uzmanlığı kursları aldım.
+                                    <br />  <br />
+                                    <b>TECRÜBE </b>
+                                    <br />Öğrencilik yıllarımdan beri çeşitli kurum ve kişiler için freelance olarak web sitesi ve otomasyon dahil birçok proje geliştirdim. Oyun programlama, mobil uygulamalar, detaylı yönetim panelli web siteleri, otomasyon, veri tabanı, veri analizi, simülasyon uygulamaları gibi birçok alanda projeler yaptım ve kendimi sürekli geliştirmeye devam ediyorum.
+
+
+
+
+
+                                    Donanım, yazılım, iş geliştirme, proje yönetimi gibi birçok alanda çalıştım ve ERP sistemleri, e-ticaret, veri toplama, sektörel çözümler gibi birçok özel projede aktif oyuncu ve süreç yöneticisi oldum. TÜBİTAK gibi platformlara proje yazarak büyük ölçekli projelerde proje yöneticisi olarak çalıştım, özellikle savunma sanayisinde ileri seviye ERP sistemleri ve tetikleyiciler yazdım.
+                                    <br />
+                                </p>
+                                <b>   BAŞLICA GÖREV TANIMLARIM: </b>
+                                <ul>
+                                    <li>
+                                        Müşteri ile samimi ve doğru ilişkiyi kurup iş analistliği görevini üstlendim. Bu isterleri yazılımcı arkadaşlara iletip onların takım lideliğini yaptım ve problemlerin giderilmesinde, kodlama kısmında aktif görev aldım.
+                                    </li>
+                                    <li>
+                                        TUBİTAK SANAYİ ARGE, KOSGEB gibi platformlarda a'dan z'ye şirket adına hem proje fikri ürettim, hem proje yazdım hem de proje yürütücüsü olarak görev aldım.
+                                    </li>
+                                    <li>
+                                        Dışarıya yaptıracağımız hizmetler için maliyet performans analizine göre kararları verdim. Potansiyel kişi ve hizmetleri bulup analizlerini yaptım.
+                                    </li>
+                                    <li>
+                                        Mevcut ihtiyaçlara göre potansiyel personeller, mülakatları ve teknik becerilerini ölçerek işe alımlarını yaptım.
+                                    </li>
+                                    <li>
+                                        Proje yönetimi, mevcut proje geliştirilmesi, pazar analizi, teknik bilgi gereklilikleri, risk yönetimi gibi alanların teorik kısmında ve dokümantasyon kısmında aktif görev aldım.
+                                    </li>
+                                    <li>
+                                        Kalite yönetim sistemlerinin, sözleşmelerin yazılım birimimizde uygulanması için gerekli doküman sistemlerini hazırladım.
+                                    </li>
+                                    <li>
+                                        AGILE ve SCRUM metodolojilerini, haftalık toplantıları, iş planlarını, görev dağılımlarını kaynağa göre doğru bir şekilde analiz yaparak yönettim.
+                                    </li>
+                                    <li>
+                                        Şirket ihtiyaçlarına göre projeler ürettim. Bunu gözlemlerim doğrultusunda yaptım.(Maliyet programı, otomatik marketting programı, otomatik veri kazıma ve contact kurma, personel yönetim uygulamaları....)
+
+                                    </li>
+                                    <li>
+                                        Group şirketimiz ve tüm alt şirketlerinin linkedin hesaplarını yönetip, aktifleştirdim.
+
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-md-5 offset-lg-1">
+                                <div class="row mt-2">
+                                    <h2 class="h2 fw-light mb-4">Genel Bakış</h2>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Yaş</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">25</div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">tugbagurann1@gmail.com</div>
+                                    </div>
+
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="fab fa-linkedin pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Linkedin</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">https://www.linkedin.com/in/tuğba-güran-52b017171/</div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="fab fa-github pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Github</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">https://github.com/tugbaguran</div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="fab fa-uikit pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Udemy</div>
+                                    </div>
+
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">https://www.udemy.com/user/tugba-guran-4/</div>
+                                    </div>
+
+
+
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Adres</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">ALTINDAĞ/ANKARA</div>
+                                    </div>
+
+
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <b>ÖZELLİKLER </b>Karmaşık algoritma mantığını çözebilen, çalışma alışkanlığına sahip, öğrenmeye açık ve çabuk öğrenen, takım çalışmasına uyum sağlayabilen,kariyer hedefleri net olan, müşteri ile iletişimi kuvvetli bir mühendisim.
+
+                                    <br /><br />   <b>YETKİNLİKLER </b> İleri Seviye SQL triggerları (Tüm ekstre mantığı, cari borcu , banka, stok, ödeme ilişkisi, alış faturası, iade alış, satış, iade satış, tahsilat, tediye, red), .NET MVC' de ön uç geliştirci ve arka uç geliştirici olarak ileri seviye kod becerisi (Gelişmiş ERP sistemi), Python' da verikazıma, veri toplama ile ileri seviye marketing, pazarlama yan projeleri.
+                                    </p>
+
+                                    <br />
+
+                                    <b>KULLANDIĞIM/ KENDİ YAZDIĞIM ERP SİSTEMİ İÇİN AYRINTILI İNCELEDİĞİM PROGRAMLAR </b><br /><ul>
+                                        <li>Canias</li>
+                                        <li>Zirve</li>
+                                        <li>Mikro</li>
+                                        <li>Github</li>
+                                        <li>Jira</li>
+                                        <li>Workcube</li>
+                                        <li>Odoo</li>
+                                        <li>Netsis</li>
+                                        <li>Asana</li>
+                                        <li>Eta</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+                    <div class="skills-section">
+                        <h2 class="h2 fw-light mb-4">Profesyonel Yetenekler</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <span class="fw-bolder">SQL</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">.NET MVC5 </span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">JAVASCRIPT</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Uzman</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">HTML-CSS- BOOTSTRAP</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="mb-3">
+                                    <span class="fw-bolder">MÜŞTERİ İLİŞKİLERİ/ SÜREÇ YÖNETİMİ</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">PROJE YÖNETİMİ</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">DOKUMAN OKUMA/ HAZIRLAMA</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width:80%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">İleri Seviye</div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <span class="fw-bolder">PAZARLAMA/ SUNUM YETENEĞİ</span>
+                                    <div class="progress my-2 rounded" style="height: 20px">
+                                        <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Uzman</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+                    <div class="work-experience-section">
+                        <h2 class="h2 fw-light mb-4">İŞ TECRÜBESİ</h2>
+                        <div class="timeline">
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">
+                                        Yazılım Geliştirme & Proje Yöneticisi<span class="text-muted h6">- RAMSA SAVUNMA VE HAVACILIK</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">Nisan, 2020 - Devam ediyor</div>
+                                    <div>Kuruluşun ERP sisteminin tasarımı, kümelenmesi, bakımı, testi ve dağıtımında aktif rol oynadı. Kurum yapılarına uygun ERP yazılım modüllerinin geliştirilmesini yönetti ve mevcut ERP yapılarını güncelledi. İş gereksinimlerinin analizi, yazılım gereksinimlerinin belirlenmesi, teknik şartname maliyetlerinin tahmini gibi görevlerin yerine getirilmesi. Veri yönetimi ve arşiv tasarımı, boyutları ve bakımı ile ilgilenildi. Şirket içi iş fırsatlarının sunduğu fırsatlar ve otomasyon konusunda danışmanlık verildi.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Yazılım Mühendisi <span class="text-muted h6">- HACETTEPE TEKNOKENT</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">Ocak, 2020 - Nisan, 2020</div>
+                                    <div>Müşteri ihtiyaçlarına uygun özel yazılım projelerinin oluşturulmasını yönettim. İstihbarat topluluğunun müşteri portföyünü hedefleyen iş geliştirme ile uğraştım. Çalışanların iş yüklerini ve kilometre taşlarını planlayıp takip ettim. İhtiyaçların analiz, tasarım, yazılım geliştirme ve test aşamalarını yönettim. Yürüyerek ve yaşayarak, projeleri izleyerek ve performanslarını raporlayarak düzenli olarak iletişim kurdum.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Bilgisayar Mühendisi <span class="text-muted h6"> - ANKARA TEKNOPARK</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">Kasım, 2019 - Ocak, 2020</div>
+                                    <div>Banka projesinde yer alınıp, süreç ile ilgili bilgi sahibi olundu, hatalar giderildi, proje test edildi.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Yazılım Stajyeri <span class="text-muted h6"> - BOZOK ÜNİVERİSTESİ</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">Haziran, 2019 - Ağustos, 2019</div>
+                                    <div>Bilgisayar Mühendisliği Bölümü Web Sitesinin ASP.NET Kullanılarak Yönetim Paneli ve Detaylı Kodlanması.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Donanım Stajyeri <span class="text-muted h6"> - BOZOK ÜNİVERİSTESİ</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">Nisan, 2019 - Haziran, 2019</div>
+                                    <div>ri Merkezi Kurulumu ve İşletimi. Ölçeklenebilir Veri Merkezinin Python Dili ile Kodlanması, Ayrıntılı Simülasyon Versiyonlarının Cisco Packet Tracer Uygulaması Üzerinde Farklı Senaryolar ile Gerçekleştirilmesi.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+                    <div class="education-section">
+                        <h2 class="h2 fw-light mb-4">EĞİTİM</h2>
+                        <div class="timeline">
+                            <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Bilgisayar Mühendisliği <span class="text-muted h6">- Bozok Üniversitesi</span>          </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">2011 - 2013</div>
+                                    <div> Üç yılda ve üst sınıflarım arasında bölüm 2. si olarak tamamladım.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Bilgisayar Mühendisliği <span class="text-muted h6">- Mersin üniversitesi</span>          </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">2007 - 2011</div>
+                                    <div>Yaz Okulu/ Üst sınıfımın ağır derslerini yaz okulu yaparak aldım.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Sosyal Medya Yöneticiliği <span class="text-muted h6">Anadolu Üniversitesi</span>          </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">1995 - 2007</div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5"> <span class="text-muted h6">Uluğbey Anadolu Lisesi</span>          </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">2007 - 2011</div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+                    <div class="portfolio-section">
+                        <h2 class="h2 fw-light mb-4">ÇALIŞMALARIMIN KÜÇÜK BİR KISMI</h2>
+                        <div class="row g-0">
+
+                            <div class="col-md-6"><a href="~/8.png" target="_blank"><img class="img-fluid" src="~/8.png" width="800" height="500" data-target="blank" /></a></div>
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                                <div class="m-4 mt-md-2">
+                                    <p class="text-teal text-small">SQL / Bootstrap / CSS / JavaScript</p>
+                                    <h3>İleri Seviye CRM Yazılımı</h3>
+                                    <p class="text-muted">
+                                        CMüşteri bilgilerini, satışları, pazarlama kampanyalarını, müşteri hizmetlerini ve diğer iş süreçlerini yönetmek için CRM yazılımlarını kullanır.
+
+                                        Müşteri memnuniyetini artırmayı, müşteri sadakatini güçlendirmeyi ve satışları artırmayı amaçlar. Müşteri verilerini analiz ederek daha iyi müşteri anlayışı elde etmelerine ve iş süreçlerini optimize etmelerine yardımcı olur.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 portfolio-reverse">
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                                <div class="m-4 mt-md-2 text-end">
+                                    <p class="text-teal text-small">İleri Seviye SQL Bilgisi/ Trigger İfadeleri</p>
+                                    <h3>Muhasebe Yönetim Sistemi</h3>
+                                    <p class="text-muted">
+
+                                        Şirketlerin muhasebe departmanlarının işlerini kolaylaştırırken, genel olarak finansal operasyonları daha verimli ve şeffaf hale getirir. Bu tür bir sistem, el ile yapılan muhasebe işlemlerinin hatalarını azaltır, zaman kazandırır ve işletmelere daha iyi finansal kararlar almalarına yardımcı olacak raporlar sunar.
+
+                                        (Genel muhasebe, Banka Uyumu, Vergi Yönetimi, Raporlama ve Analiz, Bütçe Planlaması, Denetim İzleri)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6"><a href="~/3.png" target="_blank"><img class="img-fluid" src="~/3.png" width="800" height="500" /></a></div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-md-6"><a href="~/6.png" target="_blank"><img class="img-fluid" src="~/6.png" width="800" height="500" /></a></div>
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                                <div class="m-4 mt-md-2">
+                                    <p class="text-teal text-small">.NET MVC / Code-first / MSSQL</p>
+                                    <h3>Savunma Şirketleri Sipariş Takip Portalı</h3>
+                                    <p class="text-muted">
+                                        Savunma sanayi ürünleri ve hizmetleri üreten şirketlerin müşteri taleplerini, siparişleri, üretim süreçlerini ve tedarik zinciri yönetimini kolaylaştırır. Siparişlerin başlangıcından teslimata kadar olan tüm aşamaları izlemeye ve yönetmeye olanak tanır.
+
+                                        (Sipariş yönetimi,
+                                        Stok yönetimi,
+                                        Üretim takibi,
+                                        Teslimat ve lojistik,
+                                        Müşteri iletişimi,
+                                        Raporlama)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row g-0 portfolio-reverse">
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                                <div class="m-4 mt-md-2 text-end">
+                                    <p class="text-teal text-small">Javascript / MSSQL </p>
+                                    <h3>Satınalma Yönetim Sitemi</h3>
+                                    <p class="text-muted">
+                                        Şirketlerin mal ve hizmetleri satın alma süreçlerini düzenlemek, izlemek ve optimize etmek için kullanılan bir yazılım veya çevrimiçi platformdur.Satın Alma Yönetim Sistemi genellikle bu temel işlevlere sahiptir:
+
+                                        Tedarikçi Yönetimi,
+
+                                        Sipariş Yönetimi,
+
+                                        Fiyat ve Sözleşme Yönetimi,
+
+                                        Tedarikçi Değerlendirmesi,
+
+                                        Stok Yönetimi,
+
+                                        Satın Alma Raporlama,
+
+                                        Tedarikçi İletişimi.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6"><a href="~/7.png" target="_blank"><img class="img-fluid" src="~/7.png" width="800" height="500" /></a></div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-md-6"><a href="~/9.jpg" target="_blank"><img class="img-fluid" src="~/9.jpg" width="800" height="500" /></a></div>
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                                <div class="m-4 mt-md-2">
+                                    <p class="text-teal text-small">Frontend / HTML / CSS / JavaScript / Bootstrap</p>
+                                    <h3>E-Ticaret/ Web Sitesi/ Diğer Alt Portallar</h3>
+                                    <p class="text-muted">
+                                        E-Ticaret: Elektronik Ticaret olarak da bilinen E-Ticaret, internet aracılığıyla mal ve hizmetlerin alımı ve satımı işlemidir.<br />
+                                        Web Sitesi: İşletmeler, kişiler veya kurumlar web siteleri aracılığıyla ürün ve hizmetlerini tanıtabilir, içerik yayınlayabilir ve müşterilerle etkileşime geçebilir.
+                                        <br />
+                                        Diğer Alt Portallar: Diğer alt portallar, genellikle ana web sitesinin altında bulunan ve belirli amaçlar için oluşturulan alt siteler veya alt sayfalardır.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="references">
+                    <div class="reference-section">
+                        <h2 class="h2 fw-light mb-4">SERTİFİKALAR</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">MİCROSOFT SQL SERVER SORGULAMA</h3>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CODER BİLİŞİM AKADEMİSİ</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+
+                                    <p class="lead " data-aos="fade-left">
+                                        <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                        Kurs İçeriği:
+                                        Veri tabanına giriş-
+                                        MSSQL kurulumu-
+                                        Management Studio-
+                                        Tablolar-
+                                        İlişkisel veri tabanı tasarımı-
+                                        T-SQL sorgulama-
+                                        Stored Procedure-
+                                        Table Valued Functions-
+                                        Output ifadesi, inserted ve deleted-
+                                        Trigger-
+                                        Hata yönetimi-
+                                        Transaction-
+                                        Clustered ve nonclustered index-
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">ASP.NET CORE MVC</h3>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CODER BİLİŞİM AKADEMİSİ</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="lead " data-aos="fade-left">
+                                        <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+
+                                        Kurs İçeriği:
+
+                                        ASP.NET Core Genel Bakış-
+                                        MVC Tasarım Deseni-
+                                        Startup Sınıfı-
+                                        Middleware ve Service-
+                                        Configure ve Configure Service Metotları-
+                                        Model Katmanı ve EntityFramework Core-
+
+                                        Tag Helpers -
+                                        Middleware Geliştirme-
+                                        ASP.NET Core MVC ile Identity kullanarak Authentication ve Authorization-
+
+                                        Web API -
+                                        Web API Token Auth. (JWT)-
+                                        Bitirme Projesi-
+                                        N-Katmanlı mimari ve Generic Repository ile E-Ticaret uygulaması geliştirme
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">C# .NET PROGRAMLAMA VE YAZILIM UZMANLIĞI KURSU</h3>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CODER BİLİŞİM AKADEMİSİ</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+
+                                    <p class="lead " data-aos="fade-left">
+                                        <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                        Kurs İçeriği:
+
+                                        C#'da Sözdizimi-
+                                        Tipler ve Tip Dönüşümleri
+                                        Metot Oluşturma , Hata Yakalama ve Görüntüleme-
+                                        Class, Struct, Enum ve Interface-
+                                        Nesne Yönelimli Programlama (OOP) Prensipleri-
+                                        Inheritance, Encapsulation ve Polymorphism-
+
+                                        Windows Form Uygulama Geliştirme-
+                                        Delegate ve Event-
+                                        Generic Class-
+                                        Diziler, Koleksiyonlar ve Generic Koleksiyonlar-
+                                        Dosya işlemleri System.IO-
+                                        Dosyalar sistemi üzerinde işlemler yapma-
+
+                                        ADO.NET ile veri tabanı işlemleri-
+                                        Temel ADO.NET işlevsellikleri ve veri katmanı geliştirme-
+
+                                        Linq To Object-
+                                        Veri tabanı işlevsellikleri için LinqToSql kullanımı-
+
+                                        Veri tabanı işlemleri için EntityFramework kullanımı-
+
+                                        Bitirme Projesi:
+                                        N Katmanlı mimari ile tasarım desenleri kullanarak framework geliştirme
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">WEB TASARIM KURSU</h3>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CODER BİLİŞİM AKADEMİSİ</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <p class="lead " data-aos="fade-left">
+                                        <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+
+                                        Kurs İçeriği:
+                                        HTML ve CSS-
+
+                                        JavaScript:
+                                        HTML5 sayfalarına JavaScript ile etkileşimde bulunma konuları-
+
+                                        Formlar Oluşturma ve Veri Doğrulamaları:
+                                        HTML5 ve JavaScript kullanarak oluşturulan sayfalarda kullanıcı girişi ve doğrulama işlemleri-
+
+                                        Veri Kaynağı ile Uzaktan İletişim:
+                                        XMLHTTPRequest nesnesi kullanma ve JQuery AJAX işlemleri kullanarak uzak veri kaynağıyla veri alış verişi-
+
+                                        CSS3 Kullanarak HTML Stilleri Oluşturma:
+                                        HTML sayfalarınıza ve bu sayfalar içindeki elementlere CSS kullanarak stil verme-
+
+                                        jQuery :
+                                        Temel jQuery ve slider yapımı-
+
+                                        HTML5 API'leri Kullanarak Etkileşimli Sayfalar Oluşturma:
+                                        Web uygulamasına interaktif özellikler eklemek için ortak HTML5 API'lerinin nasıl kullanılacağı-
+
+                                        Bootstrap:
+                                        Bootstrap ile responsive tasarımlar geliştirme-
+
+                                        Bitirme Projesi:
+                                        Kurumsal web sitesi tasarlama
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">XAMARIN MOBİL UYGULAMA KURSU</h3>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CODER BİLİŞİM AKADEMİSİ</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+
+                                    <p class="lead " data-aos="fade-left">
+                                        <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                        Kurs İçeriği:
+
+                                        Uygulama Anatomisi-
+                                        Text Uygulamaları-
+                                        StackLayout-
+                                        Boyut Ölçü Birimleri (Pixels, points, dps, DIPs, and DIUs)-
+                                        Eventler ile Çalışma-
+                                        XAML Kodları ve Kod Tarafının Karşılaştırılması-
+                                        Platforma Özel API 'ler-
+                                        XAML Markup Extensions-
+                                        Stil İşlemleri-
+                                        Resim (Bitmap) İşlemleri-
+                                        Absolute Layout Keşfi-
+                                        Daha İnteraktif Arayüzler ile Çalışma-
+                                        Databinding (Verileri Bağlama)-
+                                        Grid Yapısı-
+                                        MVVM Modeli-
+                                        Koleksiyon Kontrolleri-
+                                        Asenkron File I/O İşlemleri-
+                                        Dönüştürme (Transform)-
+                                        Sayfalarda Gezinme-
+                                        Sayfa Çeşitleri-
+                                        Özel Layout Oluşturma-
+                                        Render İşlemlerini Özelleştirme
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex mb-2">
+
+                                    <div class="header-bio m-3 mb-0">
+                                        <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">DİĞER KURSLAR</h3><br />
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">
+                                            <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                            PROJE YÖNETİCİLİĞİ
+                                        </p>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">
+                                            <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                            ALGORİTMA TASARIMI
+                                        </p>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">
+                                            <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                            KVKK- GDPR EĞİTİM SETİ
+                                        </p>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">
+                                            <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                            ALGORİTMA PROGRAMLAMA VE VERİ YAPISI
+                                        </p>
+                                        <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">
+                                            <i class="text-secondary fas fa-arrow-right" style="line-height:0px !important"></i>
+                                            ASP .NET CORE WEB/ API+ ÇOK KATMANLI MİMARİ
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+                    <div class="contant-section">
+                        <h2 class="h2 fw-light text mb-4">İLETİŞİM</h2>
+                        <div class="row mb-4">
+                            <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                <div class="mt-1">
+                                    <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> tugbagurann1@gmail.com</div>
+                                    <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> tugbaguran0666@gmail.com</div>
+
+
+                                </div>
+                                <div class="mt-5 d-print-none">
+                                    <form action="/Home/Index/"
+                                          method="POST">
+                                        <div class="form-outline mb-4">
+                                            <input type="text" id="name" class="form-control" required />
+                                            <label class="form-label" for="name">Ad Soyad</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="email" id="email" class="form-control" required />
+                                            <label class="form-label" for="email">Mail Adres</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+                                            <label class="form-label" for="message">Mesaj</label>
+                                        </div>
+                                        <button class="btn btn-info btn-block mb-4" type="submit">Gönder</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.54155121622!2d32.851839675524964!3d39.92927458516414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34e57c46efeab%3A0xc0ed41da176ec75a!2zQW5hZmFydGFsYXIsIFPEsWhoxLF5ZSBPdG9iw7xzIER1cmHEn8SxLCBBbHTEsW5kYcSfL0Fua2FyYQ!5e0!3m2!1str!2str!4v1689944442169!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+            <div class="container">
+                <div class="my-3">
+                    <div class="h4">TUĞBA GÜRAN</div>
+                    <div class="footer-nav">
+                        <nav role="navigation">
+                            <ul class="nav justify-content-center">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.linkedin.com/in/tu%C4%9Fba-g%C3%BCran-52b017171/" title="Twitter"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.udemy.com/user/tugba-guran-4/" title="Facebook"><i class="fab fa-uikit"></i><span class="menu-title sr-only">Udemy</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://github.com/tugbaguran" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="text-small">
+                    <div class="mb-1">&copy; TUĞBA GÜRAN.</div>
+
+                </div>
+            </div>
+        </footer>
+        <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+        <script src="scripts/aos.js?ver=1.2.1"></script>
+        <script src="scripts/main.js?ver=1.2.1"></script>
+</body>
+</html>
+<script src="~/TEMA/scripts/aos.js"></script>
+<script src="~/TEMA/scripts/main.js"></script>
+<script src="~/TEMA/scripts/mdb.min.js"></script>
+<link href="~/TEMA/css/mdb.min.css" rel="stylesheet" />
+<link href="~/TEMA/css/main.css" rel="stylesheet" />
+<link href="~/TEMA/css/aos.css" rel="stylesheet" />
