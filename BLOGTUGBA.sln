@@ -5,8 +5,18 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{FB8DD01E-5F90-4AEC-A8AF-8036C26E5DAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{726B4BD1-68C6-4067-8436-D524742B1858}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k", "k", "{726B4BD1-68C6-4067-8436-D524742B1858}"
 	ProjectSection(SolutionItems) = preProject
+		WebApplication1\1.png = WebApplication1\1.png
+		..\tugbaguran.github.io02\WebApplication1\1.png = ..\tugbaguran.github.io02\WebApplication1\1.png
+		..\tugbaguran.github.io02\WebApplication1\2.png = ..\tugbaguran.github.io02\WebApplication1\2.png
+		..\tugbaguran.github.io02\WebApplication1\3.png = ..\tugbaguran.github.io02\WebApplication1\3.png
+		..\tugbaguran.github.io02\WebApplication1\4.png = ..\tugbaguran.github.io02\WebApplication1\4.png
+		..\tugbaguran.github.io02\WebApplication1\5.png = ..\tugbaguran.github.io02\WebApplication1\5.png
+		..\tugbaguran.github.io02\WebApplication1\6.png = ..\tugbaguran.github.io02\WebApplication1\6.png
+		..\tugbaguran.github.io02\WebApplication1\7.png = ..\tugbaguran.github.io02\WebApplication1\7.png
+		..\tugbaguran.github.io02\WebApplication1\8.png = ..\tugbaguran.github.io02\WebApplication1\8.png
+		..\tugbaguran.github.io02\WebApplication1\9.jpg = ..\tugbaguran.github.io02\WebApplication1\9.jpg
 		index.html = index.html
 	EndProjectSection
 EndProject
