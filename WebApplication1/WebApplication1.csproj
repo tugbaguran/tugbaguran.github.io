@@ -238,6 +238,7 @@
     <Content Include="TUĞBA GÜRAN.pdf" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="TUĞBA GÜRANpf.pdf" />
+    <Content Include="TUĞBA GÜRANcv.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
