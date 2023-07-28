@@ -235,10 +235,8 @@
     <Content Include="TEMA\css\mdb.rtl.min.css.map" />
     <Content Include="TEMA\material-resume.pdf" />
     <Content Include="TEMA\scripts\mdb.min.js.map" />
-    <Content Include="TUĞBA GÜRAN.pdf" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="TUĞBA GÜRANpf.pdf" />
-    <Content Include="TUĞBA GÜRANcv.pdf" />
+    <Content Include="TUĞBA GÜRANozgecmis.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
